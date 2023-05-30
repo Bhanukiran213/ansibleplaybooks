@@ -6,7 +6,7 @@
    - tomcat_package: apache-tomcat-8.5.75
   tasks:
   - name: install java for tomcat
-    yum:
+    dnf:
      name: java
      state : present
   - name: download the tomcat from the official site
