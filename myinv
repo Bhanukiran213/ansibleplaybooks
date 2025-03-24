@@ -1,15 +1,15 @@
-[testservers]
+#[testservers]
 #172.31.35.192 ansible_user=ec2-user
 #172.31.47.50 ansible_user=ec2-user
-[Appservers]
+[#Appservers]
 #13.233.149.21 ansible_user=ec2-user
 #3.110.225.131 ansible_user=ec2-user
-[Application]
+#[Application]
 #10.0.0.242 ansible_user=ec2-user
 #10.0.0.194 ansible_user=ec2-user
-[App]
+#[App]
 #13.232.191.132 ansible_user=ec2-user
-[myappservers]
+#[myappservers]
 #43.204.140.216 ansible_user=ec2-user
 #3.111.38.57  ansible_user=ec2-user
 [web]
